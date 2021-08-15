@@ -1,0 +1,246 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}%
+\usepackage[dvipdfmx]{graphicx}%
+\setlength{\fboxrule}{1.5pt}
+\begin{document}
+\pagestyle{empty} 
+\begin{center}
+{\LARGE 令\ 和\ 3\ 年\ 度\ O\ B\ K\ 式\ 模\ 試\ 問\ 題 }\vspace{0.5in}\\*
+{\huge 数\ \ \ \ \ 学\ \ \ \ (理系)}\vspace{0.3in}\\
+\end{center}
+{\large[分析]}\vspace{0.1in}\\
+  \textgt{\fbox{\large 1}}  整数と素数の性質(IA) | 標準 \\
+  \hspace{0.25in}京大特有の素数に関する問題.  過去問演習をしっかりと行っていれば難しく\\
+  \hspace{0.22in}は無いだろう. ただし場合分けがかなり面倒. \vspace{0.2in}\\
+  \textgt{\fbox{\large 2}}  複素平面と幾何(III) | やや易\\
+  \hspace{0.22in} 図形の拡大縮小, 相似に関する問題なので複素平面に置き換えて議論すると\\
+  \hspace{0.25in}容易に示せる. ベクトルを用いると煩雑になるので注意 \vspace{0.2in}\\
+  \textgt{\fbox{\large 3}}  三角関数と微分(II, III) | 標準 \\
+  \hspace{0.22in} 1999年京大後期試験の類題. 相加相乗を使うと比較的容易に求まる.\vspace{0.2in}\\
+   \textgt{\fbox{\large 4}}  三角関数と微分(II, III) | 難 \\
+  \hspace{0.22in}与えられた条件から$a, b$をそれぞれcos$x$, sin$x$に置換するという方針が立た\\
+  \hspace{0.22in}ないと手も足も出ない問題. 置き換えた後も煩雑なので捨て問であろう.\vspace{0.2in}\\
+   \textgt{\fbox{\large 5}}  多角形の性質と極限(I, II, III) | 易 \\
+  \hspace{0.22in} 正多角形の外接円と内接円に関する問題. それほど難しくはないだろう.\vspace{0.2in}\\
+   \textgt{\fbox{\large 6}}  数列と極限(IIB, III) | やや難 \\
+  \hspace{0.22in}まずは与式が倍角の公式を変形させたものであると見抜けるかがポイント. そ\\
+  \hspace{0.22in}の後も計算上の工夫が必要である.\vspace{0.2in}\\
+ {\large[まとめ]}\vspace{0.1in}\\
+ 例年比やや易レベルだと思う. 問2,3,5を完答し, 問1,6からどれだけ部分点が取れるかが重要. 問4は完全に捨てても問題ない...はず. 予想合格平均点は130/200点くらい？\vspace{0.2in}\\
+{\large[自己採点全問共通事項]}\vspace{0.1in}\\
+結論は導けているが計算ミスで数値が異なっていた場合, 5点減点とする.
+ \newpage
+\begin{tabbing}
+\hspace{0.91\textwidth} \= \hspace{0.8\textwidth} \= \kill
+\textsf{\fbox{\Large 1}}\> (35点)\>\\
+\end{tabbing}
+[{\large 解答}]\vspace{0.1in}\\
+(証明)\vspace{0.1in}\\
+$(pq)^p-q^q+q=kp^q\cdots (\ast)$ として$p,q$の偶奇で場合分けをする.\vspace{0.1in}\\
+(I)$p=2$のとき.\vspace{0.1in}\\
+$(\ast)$より\vspace{0.1in}\\
+$(2q)^2-q^q+q=k\cdot 2^q$\vspace{0.1in}\\
+$\Leftrightarrow \ 4q^2-q^q+q=k\cdot 2^q$\vspace{0.1in}\\
+(i)$q=2$のとき.\vspace{0.1in}\\
+$16-4+2=4k\ \Rightarrow \ k=\frac{7}{2}$\vspace{0.1in}\\
+これは$k$が正の整数であることに反する. よって$q$は奇数の素数.  ここで自然数\vspace{0.1in}\\
+$a$を用いて, $q=2a+1$とおくと\vspace{0.1in}\\
+(ii) $q=2a+1$のとき.\vspace{0.1in}\\
+$4(2a+1)^2-(2a+1)(2a+1)^{2a}+(2a+1)=2k\cdot 4^a\cdots \textcircled{1}$\vspace{0.1in}\\
+$\Leftrightarrow\ (2a+1)\{ 8a+5-(2a+1)^{2a}\}=2k\cdot4^a$\vspace{0.1in}\\
+$a\rightarrow \infty$とすると(左辺)$\textless 0$となり不適. なので$a$は有限値である.\vspace{0.1in}\\
+$2\leqq a$のとき(左辺)$\textless 0$であるから(ii)のもとで$(\ast)$が成り立つと仮定すると\vspace{0.1in}\\
+それは$a=1\ (q=3)$のときのみである\vspace{0.1in}\\
+(iii) $q=3$のとき.\vspace{0.1in}\\
+$(\ast)$より$11=8k \Leftrightarrow k=\frac{11}{8} \cdots $ (不適)\vspace{0.1in}\\
+よって$p=2$のとき$(\ast)$を満たす$p,q$は存在しない.\vspace{0.2in}\\
+(II)$q=2$のとき.\vspace{0.1in}\\
+$(\ast)$より$(2p)^2-2=k\cdot p^2\cdots \textcircled {2}$\vspace{0.1in}\\
+(あ)$p=3$のとき.\vspace{0.1in}\\
+$\textcircled{2}$より$214=9k \Leftrightarrow k=\frac{214}{9} \cdots$(不適)\vspace{0.1in}\\
+\newpage
+(い)$5\leqq p$のとき. \vspace{0.1in}\\
+$2=q\textless p$なので$(pq)^p$は$p^q$の倍数なので, $(\ast)$を満たす条件は\vspace{0.1in}\\
+「$2$が$p^2$で割り切れる」ことであるが$5\leqq p$のとき$2\textless p^2$なので不適.\vspace{0.2in}\\
+(III)$p=q$のとき$(p\neq 2, q\neq 2)$
+$(\ast)$より$p^{2p}-p^p+p=k\cdot p^p\ (3\leqq p)$\vspace{0.1in}\\
+だが$p\textless p^p$より不適.\vspace{0.2in}\\
+(IV) $3\leqq p\textless q$のとき\vspace{0.1in}
+自然数$m,n(m\textless n)$を用いて$p-1=2m, q-1=2n$とする.\vspace{0.1in}\\
+$p^q$は$p^p$で割り切れるから, 両辺$p^p$で割ったとき, $q^q-q$が$p^p$で割り切れるか考\vspace{0.1in}\\
+えると\vspace{0.1in}\\
+$\frac{q^q-q}{p^p}=\frac{q}{p}\cdot \frac{q^{2n}-1}{p^{2m}}=\frac{q}{p}\cdot \frac{(q^n-1)(q^n+1)}{p^{2m}}=b\ (b$は自然数)$\cdots \textcircled{3}$ \vspace{0.1in}\\
+$\textcircled{3}$が成り立つのは, 次の$\textcircled{A},\textcircled{B}$のときである.\vspace{0.1in}\\
+$\textcircled{A}$\hspace{0.1in} 自然数$s,t$を用いて
+\begin{displaymath}
+\left\{
+\begin{array}{l}
+q=s\cdot p^{2n} \\
+tp=(q^n-1)(q^n+1)
+\end{array}
+\right.
+\end{displaymath}
+と表せるが, これは$p,q$が素数であることに反するので不適.\vspace{0.1in}\\
+$\textcircled{B}$\vspace{0.1in}\\
+$b=q,\ b=q^n-1,\ b=q^n+1\ b=(q^n-1)(q^n+1),\ b=1$のいずれかであるが,\vspace{0.1in}\\
+ $p$は$3$以上の素数より$P^P$は奇数なので, $b=q,\ b=q^n-1,\ b=q^n+1,\ b=1$の\vspace{0.1in}\\
+ とき, $p^p$と偶奇が一致しない. また$b=(q^n-1)(q^n+1)$のときは$q=p^p$となる\vspace{0.1in}\\
+ が, これは$q$が素数であることに反する. よって$\textcircled{B}$も不適.\vspace{0.1in}\\
+ (V)$3\leqq q\textless p$のとき.\vspace{0.1in}\\
+ $(pq)^p$は$p^q$ で割り切れるので, $q^q-q$が$p^q$で割り切れるか考える.\vspace{0.1in}\\
+ $\frac{q}{p}\cdot \frac{q^{q-1}-1}{p^{q-1}}=c\ (c$は自然数)\vspace{0.1in}\\
+ となるような$c$が存在すると仮定する. ところが$p,q$は異なる素数で$q\textless p$である\vspace{0.1in}\\
+ から$0\textless \frac{q}{p}\textless 1,\ 0\textless \frac{q^{q-1}-1}{p^{q-1}}\textless 1$, であるので$0\textless c\textless1$ となるがこれを満たす自然数は\vspace{0.1in}\\
+ 存在しない. よって不適.\vspace{0.2in}\\
+ 以上より$(\ast)$を満たす素数$p,q$は存在しない.\vspace{0.1in}\\
+ (一言)$\cdots$ 場合分けが非常に面倒. もっと楽な方法があれば教えてちょーだい.
+ \newpage
+ {\Large 採点基準}\vspace{0.1in}\\
+ $\cdot$ (I)(II)(III)を共に示せて5点\vspace{0.2in}\\
+ $\cdot$ (IV)を示せて15点\vspace{0.2in}\\
+ $\cdot$ (V)を示せて5点\vspace{0.2in}\\
+ $\cdot$ 完答して10点\vspace{0.2in}\\
+ 計35点満点\vspace{0.2in}\\
+\newpage
+\begin{tabbing}
+\hspace{0.91\textwidth} \= \hspace{0.8\textwidth} \= \kill
+\textsf{\fbox{\Large 2}}\> (35点)\>\\
+\end{tabbing}
+[{\large 解答}]\vspace{0.1in}\\
+(証明)\vspace{0.1in}\\
+A$_k,$B$_k$ に対応する複素数を$\alpha_k,\ \beta_k.$ また$v$を正の実数とする. \vspace{0.1in}\\
+G$_k$が半直線OG$_1$上より,\vspace{0.1in}\\
+$v\frac{\alpha_1+\beta_1}{3}=\frac{\alpha_k+\beta_k}{3}\ \Leftrightarrow\ v(\alpha_1+\beta_1)=\alpha_k+\beta_k\cdots \textcircled{I}$\vspace{0.1in}\\
+$\triangle{OA_kB_k} \sim \triangle{O\alpha_k\beta_k}$と仮定すると,
+$\frac{\beta_k}{\alpha_k}=\frac{\beta_1}{\alpha_1}$が成立する$\cdots \textcircled{II}$\vspace{0.1in}\\
+$\beta_1=\frac{\alpha_1\beta_k}{\alpha_k}\ (\alpha_k\neq0)$より$\textcircled{I}$に代入して,\vspace{0.1in}\\
+$v\frac{\alpha_1}{\alpha_k}(\alpha_k+\beta_k)=\alpha_k+\beta_k$\vspace{0.1in}\\
+$\therefore v\alpha_1=\alpha_k$\vspace{0.1in}\\
+よって仮定は成立するので題意は示された.\vspace{0.1in}\\
+(一言)$\cdots$ ベクトルで示す場合背理法を用いるとよいと思う. ただ文字消去...etc\\
+\hspace{0.62in}が面倒なのでオススメしない.\vspace{0.2in}\\
+ {\Large 採点基準}\vspace{0.1in}\\
+ $\cdot \textcircled{1}, \textcircled{2}$を導いて5点\vspace{0.2in}\\
+ $\cdot$完答して30点\vspace{0.2in}\\
+ ベクトルを用いた場合\vspace{0.2in}\\
+ $\cdot\ \overrightarrow{OG_k}$を2通りで表せて10点\vspace{0.2in}\\
+ $\cdot$ 完答して25点\vspace{0.2in}\\
+ 計35点満点
+
+\newpage
+\begin{tabbing}
+\hspace{0.91\textwidth} \= \hspace{0.8\textwidth} \= \kill
+\textsf{\fbox{\Large 3}}\> (30点)\>\\
+\end{tabbing}
+[{\large 解答}]\vspace{0.1in}\\
+与条件から$0\textless \alpha \textless \beta \textless \gamma \textless\pi$としても一般性を失わない.\vspace{0.1in}\\
+ここで関数$y=cosx\ (y=f(x))\ (0\textless x\textless\pi)$を考えると各点$A(\alpha, cos\alpha),\ B(\beta,cos\beta),\ C(\gamma, cos\gamma)\vspace{0.1in}\\
+$は$y=f(x)$上に存在し, 点ABCで三角形を描ける. $\triangle ABC$の重心を点$G$と\vspace{0.1in}\\
+すると$G(\frac{\alpha+\beta+\gamma}{3}, \frac{cos\alpha+cos\beta+cos\gamma}{3})$であり, $\triangle ABC$の内部に存在する. また点$G$\vspace{0.1in}\\
+は, $y=f(x)$の曲線の下側にあるので$y$座標を比較すると\vspace{0.1in}\\
+$\frac{cos\alpha+cos\beta+cos\gamma}{3}\leqq cos\frac{\alpha+\beta+\gamma}{3}$ \vspace{0.1in}\\
+が成り立つ.\vspace{0.1in}\\
+与条件から$\alpha+\beta+\gamma=\pi$より\vspace{0.1in}\\
+$\frac{cos\alpha+cos\beta+cos\gamma}{3}\leqq cos\frac{\alpha+\beta+\gamma}{3}=cos\frac{\pi}{3}=\frac{1}{2}$ \vspace{0.1in}\\
+ここで相加相乗平均より\vspace{0.1in}\\
+$\sqrt[3]{cos\alpha  cos\beta cos\gamma}\leqq \frac{cos\alpha+cos\beta+cos\gamma}{3}\leqq cos\frac{\pi}{3}$\vspace{0.1in}\\
+$\therefore cos\alpha cos\beta cos\gamma \leqq(\frac{1}{2})^3=\frac{1}{8}$\vspace{0.1in}\\
+(一言)$\cdots$ 今回は相加相乗平均(AM-GM不等式)を使うことで比較的容易かつ視\\
+\hspace{0.62in}覚的に示したが, 積和の公式から文字消去, 一文字固定法を用いて微分\\
+\hspace{0.62in}しても良い. ただその場合若干計算量が増えるので計算ミス注意. \vspace{0.2in}\\
+ {\Large 採点基準}\vspace{0.1in}\\
+ $\cdot$ $y$座標を比較して10点\vspace{0.1in}\\
+ $\cdot$ 完答して20点\vspace{0.1in}\\
+積和の公式を用いた場合\vspace{0.1in}\\ 
+$\cdot$ １文字で与式を表せて5点\vspace{0.1in}\\
+$\cdot$ 微分と論理が正確に行えて5点\vspace{0.1in}\\
+$\cdot$ 完答して20点\vspace{0.1in}\\
+計30点満点 
+ 
+\newpage
+\begin{tabbing}
+\hspace{0.91\textwidth} \= \hspace{0.8\textwidth} \= \kill
+\textsf{\fbox{\Large 4}}\> (35点)\>\\
+\end{tabbing}
+[{\large 解答}]\vspace{0.1in}\\
+(証明)\vspace{0.1in}\\
+与条件から$a=cosx,\ b=sinx\ (0\textless x \textless\frac{\pi}{2})$とおくと\vspace{0.1in}\\
+(与式)=$\frac{cos2xsinx}{2-sinx}-\frac{cos2xcosx}{2-cosx}=f(x)$とおく.\vspace{0.1in}\\
+$f(x)=cos2x\{ \frac{sinx}{2-sinx}-\frac{cosx}{2-cosx}\}$\vspace{0.1in}\\
+$f^{\prime}(x)=-2sin2x\{ \frac{sinx}{2-sinx}-\frac{cosx}{2-cosx}\}+cos2x\{\frac{cosx(2-sinx)+sinxcosx}{(2-sinx)^2}+\frac{sinx(2-cosx)+cosxsinx}{(2-cosx)^2}\}$\vspace{0.1in}\\
+$f^{\prime}(x)=-4sin2x\{ \frac{sinx-cosx}{(2-sinx)(2-cosx)}\}+cos2x\{\frac{2cosx}{(2-sinx)^2}+\frac{2sinx}{(2-cosx)^2}\}$\vspace{0.1in}\\
+ここで三角関数の合成より\vspace{0.1in}\\
+$sinx-cosx=\sqrt{2}sin(x-\frac{\pi}{4})$より$\frac{\pi}{4}\leqq x\leqq\frac{\pi}{2}$において\vspace{0.1in}\\
+$-4sin2x\{ \frac{sinx-cosx}{(2-sinx)(2-cosx)}\}\leqq 0$\vspace{0.1in}\\
+また$\frac{\pi}{4}\leqq x\leqq\frac{\pi}{2}$において$cos2x\{\frac{2cosx}{(2-sinx)^2}+\frac{2sinx}{(2-cosx)^2}\}\leqq 0$であるから$f^{\prime}(x)\leqq 0$\vspace{0.1in}\\
+また$0\leqq x\leqq\frac{\pi}{4}$において$0\leqq -4sin2x\{ \frac{sinx-cosx}{(2-sinx)(2-cosx)}\},$\vspace{0.1in}\\
+$0\leqq cos2x\{\frac{2cosx}{(2-sinx)^2}+\frac{2sinx}{(2-cosx)^2}\}$であるから$0\leqq f^{\prime}(x)$である. \vspace{0.1in}\\
+よって$y=f(x)$の最大最小は, $x=0,\ \frac{\pi}{4},\ \frac{\pi}{2}$のときを比較すればよい.\vspace{0.1in}\\
+$f(0)=-1,\ f(\frac{\pi}{4})=0,\ f(\frac{\pi}{2})=-1$\vspace{0.1in}\\
+したがって$-1\textless f(x)\leqq 0$となるから与不等式は成り立つ.\vspace{0.1in}\\
+ (一言)$\cdots$ 今回の模試で一番難しいと思われる問題. 置換に気が付けたとしても, \\
+ \hspace{0.62in}その後どこまで式変形をすれば微分が楽になるか見通しをつけないと\\
+ \hspace{0.62in}計算地獄に陥るだろう.\vspace{0.2in}\\
+  {\Large 採点基準}\vspace{0.1in}\\
+ $\cdot$ 第一次導関数を求めて10点\vspace{0.1in}\\
+ $\cdot$ 第一次導関数の符号を求めて5点\vspace{0.1in}\\
+ $\cdot$ 完答して20点\vspace{0.1in}\\
+計35点満点
+ 
+\newpage
+\begin{tabbing}
+\hspace{0.91\textwidth} \= \hspace{0.8\textwidth} \= \kill
+\textsf{\fbox{\Large 5}}\> (30点)\>\\
+\end{tabbing}
+[{\large 解答}]\vspace{0.1in}\\
+(解答)\vspace{0.1in}\\
+外接円の中心をOとすると\vspace{0.1in}\\
+$r=Rcos\frac{\pi}{n}, \hspace{0.1in} S_n=\frac{R^2}{n}-Rrsin\frac{\pi}{n}, \hspace{0.1in} T_n=Rrsin\frac{\pi}{n}-\frac{r^2}{n},$\vspace{0.1in}\\
+なので\vspace{0.1in}\\
+$\displaystyle \lim_{n\to \infty}n(S_n-T_n)=\displaystyle \lim_{n\to \infty}n(\frac{R^2+r^2}{n}-2Rrsin\frac{\pi}{n})$\vspace{0.1in}\\
+\hspace{0.99in} $=\displaystyle \lim_{n\to \infty}R^2+r^2-2nRrsin\frac{\pi}{n}$\vspace{0.1in}\\
+\hspace{0.99in} $=\displaystyle \lim_{n\to \infty}R^2+r^2-2nRr\frac{sin\frac{\pi}{n}}{\frac{\pi}{n}}\cdot \frac{\pi}{n}$\vspace{0.1in}\\
+\hspace{0.99in} $=R^2+r^2-2\pi Rr$\vspace{0.1in}\\
+  (一言)$\cdots$ 非常に簡単で何のテクニックも要らない問題. 完答必須である.\vspace{0.2in}\\
+   {\Large 採点基準}\vspace{0.1in}\\
+ $\cdot$ 完答して30点. \vspace{0.1in}\\
+計30点満点
+
+\newpage
+\begin{tabbing}
+\hspace{0.91\textwidth} \= \hspace{0.8\textwidth} \= \kill
+\textsf{\fbox{\Large 6}}\> (35点)\>\\
+\end{tabbing}
+[{\large 解答}]\vspace{0.1in}\\
+$tan\frac{\theta}{2^n}$について考えると\vspace{0.1in}\\
+$tan\frac{\theta}{2^n}=\frac{2tan\frac{\theta}{2^{n+1}}}{1-tan^2\frac{\theta}{2^{n+1}}} \Leftrightarrow\ 2tan\frac{\theta}{2^{n+1}}=tan\frac{\theta}{2^n}(1-\frac{1-cos\frac{\theta}{2^n}}{1+cos\frac{\theta}{2^n}})=tan\frac{\theta}{2^n}(\frac {2cos\frac{\theta}{2^n}}{1+cos\frac{\theta}{2^n}})$\vspace{0.1in}\\
+と変形できるので\vspace{0.1in}\\
+$a_{n+1}=2a_n\cdot2tan\frac{\theta}{2^{n+1}}$と表せる.\vspace{0.1in}\\
+また$\displaystyle n \rightarrow \infty$のとき, $\frac{\theta}{2^{n+1}} \rightarrow 0$であるから\vspace{0.1in}\\
+$a_1 \textgreater a_2 \textgreater a_3\textgreater \cdots \textgreater a_{n-1} \textgreater a_n \textgreater 0\ (0\textless \theta \textless \frac{\pi}{2})\cdots \textcircled{1}$\vspace{0.1in}\\
+$a_n=2^ncos\frac{\theta}{4}tan\frac{\theta}{4}tan\frac{\theta}{8}\cdots tan\frac{\theta}{2^n}tan\frac{\theta}{2^{n+1}}$\vspace{0.1in}\\
+$tan\frac{\theta}{2^n}=\frac{sin\frac{\theta}{2^n}}{cos\frac{\theta}{2^n}}=\frac{2sin^2\frac{\theta}{2^n}}{sin\frac{\theta}{2^{n-1}}}$であるので\vspace{0.1in}\\
+$a_n=2^n\cdot 2^{n-1}cos\frac{\theta}{4}sin\frac{\theta}{4}sin\frac{\theta}{8}sin\frac{\theta}{16}\cdots sin\frac{\theta}{2^n}sin^2\frac{\theta}{2^{n+1}}$\vspace{0.1in}\\
+$\frac{a_n}{sin\frac{\theta}{2^{n+1}}}=2^{2n-1}cos\frac{\theta}{4}sin\frac{\theta}{4}sin\frac{\theta}{8}\cdots sin\frac{\theta}{2^n}sin\frac{\theta}{2^{n+1}}\cdots \textcircled{2}$\vspace{0.1in}\\
+ここで$|cos\alpha | \textless 1$であるので$\textcircled{1}$より\vspace{0.1in}\\
+$\textcircled{2}\ \textless\ 2^{2n-1}sin\frac{\theta}{2^{n-1}}sin\frac{\theta}{2^{n}}sin\frac{\theta}{2^{n+1}}$\vspace{0.1in}\\
+$\displaystyle \lim_{n \to \infty}2^{2n-1}sin\frac{\theta}{2^{n-1}}sin\frac{\theta}{2^{n}}sin\frac{\theta}{2^{n+1}}$\vspace{0.1in}\\
+$=\displaystyle \lim_{n \to \infty}2^{2n-1}\frac{sin\frac{\theta}{2^{n-1}}}{\frac{\theta}{2^{n-1}}}\frac{sin\frac{\theta}{2^{n}}}{\frac{\theta}{2^{n}}}\frac{sin\frac{\theta}{2^{n+1}}}{\frac{\theta}{2^{n+1}}}\frac{\theta^3}{2^{3n}}=0\textgreater0, \displaystyle \lim_{n \to \infty}\frac{a_n}{sin\frac{\theta}{2^{n+1}}}\textgreater 0$\vspace{0.1in}\\
+よってはさみうちの原理より\vspace{0.1in}\\
+$\displaystyle \lim_{n \to \infty}\frac{a_n}{sin\frac{\theta}{2^{n+1}}}=0$\vspace{0.1in}\\
+ (一言)$\cdots$ 与式を正しく変形できるかが最初の関門だろう. そこを乗り越えたとし\\
+ \hspace{0.62in}てもその後の無限積の単調減少性から大雑把に評価しないといけない\\
+ \hspace{0.62in}ことに気がつけないとどうにもならないだろう.\vspace{0.1in}\\
+{\Large 採点基準}\vspace{0.1in}\\
+ $\cdot$ $\textcircled{1}$ まで求めて10点($\textcircled{1}$がない場合は5点減点)\vspace{0.1in}\\
+ $\cdot$ 完答して25点\vspace{0.1in}\\
+計35点満点
+
+
+
+
+
+
+
+
+ \end{document}
